@@ -1,0 +1,4 @@
+osci_type sm
+dam_size 60
+slope 0.5
+intercept 2

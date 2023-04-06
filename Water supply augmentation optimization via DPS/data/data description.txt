@@ -1,0 +1,23 @@
+data name format:
+1. runoff or osi
+2. which basin (short, short + long, med + long) code as: s, sl, sm
+3. if osi: what peaks. (short, med, long) code as s,m ,l
+
+e.g.
+osi_sl_s.  annual osi file, from basin with short and long peaks. short osi component
+runoff_s.  monthly runoff file. from basin with only short peaks
+
+
+dataframe format:
+(1) monthly runoff
+100 rows * 1200 columns
+100 rows: each row is one simulation
+1200 columns: 100year*12 months
+
+(2) annual osi file
+
+100 rows* 100 columns
+100 rows (100 year data in one simulation)
+100 column: 100 simulations
+Each column vector is one simulated timeseries
+
